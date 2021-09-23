@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div text-center btn btn-default">
+      <h2>Animal Sound recongnizer</h2>
+      <p>Make sounds of Dogs, Cats, Cows, Lion</p>
+      <p>Note : Background Noise means the dog</p>
+      <p>Play the videos from the youtube or any other platform</p>
+    </div>
+    <div id="main_div">
+      <center>
+      <br><br>
+      <button  id="start_it" class="btn btn-warning" onclick="Startclassification()" >Start</button>
+      <br>
+      <span> 
+      <h4 id="Dogs"> Detceted Dogs:  </h4>
+      <h4 id="Cats">Detceted Cats:  </h4>
+      <h4 id="Cow">Detceted cow:  </h4>
+      <h4 id="Lion">Detceted Lions: </h4>
+    </span>
+      <br>
+      <img src="Hearing Img.png" id="Img1">
+      </center>
+    </div>
+    <div class=" btn btn-default copy_right_footer">
+      <center>
+      <h5 id="developer
+      ">Developed by = Manthan</h5>
+    </center>
+    </div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+

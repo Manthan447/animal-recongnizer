@@ -1,0 +1,23 @@
+body{
+    background-color: white
+}
+.copy_right_footer{
+    bottom: 0%;
+    width: 100%;
+    position: fixed;
+    text-shadow: 2px 2px 5px rgb(131, 105, 105, 105, 71, 71);
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#Sound{
+    color: black;
+}
+#Accuracy{
+    color: black;
+}
+#start_it{
+    margin-top: 10px;
+    width: 100px;
+}
+.header_div{
+    background-color: grey;
+}
